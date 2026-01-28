@@ -164,6 +164,12 @@ The web-based frontend has been implemented with the following architecture:
 
 ### N-Tier Architecture (Target)
 
+### Diagram
+
+![System Architecture](docs/diagrams/system-architecture.png)
+
+### ASCII
+
 ```text
 ┌─────────────────────────────────────────────────────────────────┐
 │                    Presentation Layer                           │
