@@ -1,4 +1,3 @@
-
 # Repository Structure
 
 This document describes the high-level layout of the repository and the purpose of each major directory.
@@ -25,14 +24,14 @@ deterministic-data-reconciliation-system/
 ## Directory Guide
 
 - **docs/**
- 	- Project documentation and reports.
- 	- **images/**: Figures and diagrams referenced by documentation.
- 	- **reports/**: Formal deliverables and review material.
+  - Project documentation and reports.
+  - **images/**: Figures and diagrams referenced by documentation.
+  - **reports/**: Formal deliverables and review material.
 
 - **src/**
- 	- Application source code.
- 	- **backend/**: Server-side services, APIs, data reconciliation logic.
- 	- **frontend/**: Client-side UI and web assets.
+  - Application source code.
+  - **backend/**: Server-side services, APIs, data reconciliation logic.
+  - **frontend/**: Client-side UI and web assets.
 
 ## Key Files
 

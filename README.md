@@ -143,27 +143,6 @@ This project addresses these challenges by providing a deterministic, numeric-aw
 
 ## 🏗️ System Architecture
 
-### Console Application (Phase 1)
-
-The console-based application provides the core matching functionality:
-
-- **Data Layer:** Excel file input/output using pandas and openpyxl
-- **Business Logic Layer:** Modular Python components for data loading, matching, and scoring
-- **Output Layer:** Excel-based results and audit logs
-
-### Web Application (Phase 2A - Current)
-
-The web-based frontend has been implemented with the following architecture:
-
-- **Frontend:** React.js (Vite) with React Router for navigation
-- **Authentication:** JWT-based authentication with role-based access control
-- **API Integration:** REST API client ready for backend integration
-- **Deployment:** Static site generation for frontend deployment
-
-**Status:** Phase 2A frontend is complete. Backend API implementation is pending for Phase 2B/2C.
-
-### N-Tier Architecture (Target)
-
 ### Diagram
 
 ![System Architecture](docs/diagrams/system-architecture.png)
