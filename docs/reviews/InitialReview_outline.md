@@ -55,6 +55,30 @@
 
 ---
 
+## Slide 5: How This Differs from Existing Solutions
+
+**Key Differentiators:**
+
+| Aspect | Existing Solutions | This Project |
+|:-------|:------------------|:-------------|
+| **Architecture** | Standalone scripts | N-Tier enterprise architecture |
+| **Numeric Handling** | Ignores or underweights numbers | Strict numeric comparison logic |
+| **Determinism** | Non-deterministic results | Guaranteed repeatability |
+| **Explainability** | No justifications | GenAI-powered match explanations |
+| **Confidence** | Binary accept/reject | ML-based confidence levels (HIGH/MEDIUM/LOW) |
+| **Security** | Basic or none | JWT + RBAC + audit logging |
+
+**Unique Innovations:**
+
+1. **Numeric-Aware Matching:** Explicitly extracts and compares numeric identifiers (e.g., "Invoice 123" vs "Invoice 124") to prevent false positives in financial/operational data.
+2. **Deterministic + AI Hybrid:** Guarantees repeatable matching logic while leveraging GenAI for human-readable explanations and ML for confidence scoring.
+3. **Enterprise N-Tier Architecture:** Professional 5-layer design (Presentation → Application → Core Engine → AI/ML Services → Data Layer) suitable for academic evaluation and institutional deployment.
+4. **Explainable AI for Compliance:** Auditors receive actionable context: *"Matched because description is 95% similar and numeric identifiers '1001' are identical."*
+5. **Production-Ready Security:** JWT authentication, role-based access (Analyst/Admin), complete audit trail for regulatory compliance.
+6. **Academic + Practical Balance:** Defendable technical decisions addressing real-world data reconciliation challenges in finance, supply chain, and healthcare.
+
+---
+
 ## Slide 6: Technology Stack
 
 **Frontend:**
